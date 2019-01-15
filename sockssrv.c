@@ -378,7 +378,7 @@ static void zero_arg(char *s) {
 int main(int argc, char** argv) {
 	int c;
 	const char *listenip = "0.0.0.0";
-	unsigned port = 1080;
+	unsigned port = 1090;
 	while((c = getopt(argc, argv, ":1bi:p:u:P:")) != -1) {
 		switch(c) {
 			case '1':
